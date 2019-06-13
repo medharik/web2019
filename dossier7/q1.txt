@@ -1,0 +1,5 @@
+CMS : sont des systèmes de gestion de contenu web 
+exemples :
+wordpress
+prestashop
+... 

@@ -1,0 +1,6 @@
+question 2 :
+l'objectif de cette base de données est :
+
+
+gérer les reservations  des  excursions effectuées par les clients 
+et proposées par les tour-opérateurs 

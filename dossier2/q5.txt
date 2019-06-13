@@ -1,0 +1,3 @@
+l'intérêt des contraintes d'intégrité référentielle est de 
+protèger le contenu et les relations d’une base de données 
+pour   garantir la cohérence et la réutilisabilité des données

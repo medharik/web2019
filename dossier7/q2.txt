@@ -1,0 +1,12 @@
+FrameWork est un ensemble cohérent de composants logiciels structurels et réutilisables
+permettant 
+Un Framework est une structure logicielle 
+qui établit les fondations d’un logiciel 
+ou son squelette .
+la différence par rapport à un cms :
+
+CMS : utilisé pour réaliser la totalité d'un site web 
+en moins de temps et un backoffice stantard et sans coder
+FrameWork : utilisé pour le développement spécifique et sur mesure
+ en plus de temps et backoffice sur mesure
+ 

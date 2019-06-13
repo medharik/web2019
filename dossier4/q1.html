@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style>
+
+                * { box-sizing: border-box;}
+                .row:after { content: "";clear: both; display: block;}
+                [class*="col-"] { float: left; padding: 15px;}
+                .menu ul { list-style-type: none; margin: 0; padding: 0;}
+                .menu li { padding: 8px; background-color :#33b5e5; color: #ffffff;
+                 box-shadow: 0 5px 3px rgba(0,0,0,0.12);}
+                .menu li:hover { background-color: #0099cc;}
+                .couleur{background-color:#CCC; padding-bottom:15px
+                 ;margin-bottom: 7px; margin-left:auto; clear:left;}
+                .aside { background-color: #33b5e5; color: #ffffff; text-align: center; font-size: 14px;
+               
+                     }     .footer {
+                 background-color: #0099cc; color: #ffffff;
+                 text-align: center; font-size: 12px; padding: 15px;
+                }
+                /* For desktop: */
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+                img, googlemap{max-width:100%; box-shadow: 0 4px 8px }
+                @media only screen and (max-width: 768px) {
+                 /* For mobile phones: */
+                 [class*="col-"] {
+                 width: 100%;
+                 }
+                img{max-width:100%; }
+                }
+        </style>
+    </head>
+
+<body>
+        <div class="couleur col-12">
+        <h1> SITE D'EXCURSIONS - TOUR OPERATOR</h1>
+        </div>
+        <div class="row">
+         <div class="menu col-3">
+         <ul>
+         <li>LES ILES VIERGES</li>
+         <li>LA ROUTE DES VINS</li>
+         <li>LES ILES D'OR</li>
+         <li>LES CHEMINS</li>
+         </ul>
+         </div>
+         <div class="col-6">
+         <div class="row">
+         <h1>LES ILES D'OR</h1>
+         <p>Les îles d'Hyères, aussi appelées îles d'Or, sont un archipel de trois îles et deux îlots français en Méditerranée,
+        situées au large de la presqu'île de Giens…. .</p>
+         <div class=" "><img src="iledor.jpg" ></div>
+         </div>
+         <br>
+         <div class="row">
+         <h1>LES ILES ViERGES</h1>
+         <p>Les îles Vierges britanniques, qui forment un archipel volcanique dans les Caraïbes, sont un territoire d’outremer britannique comprenant quatre îles principales et plusieurs autres petites îles. …
+         <div class=" "><img src="ilesvierges.jpg" ></div>
+         </div>
+        
+         </div>
+        
+         <div class="col-3">
+        
+         <div class="aside">
+         <h2>Excursion 1</h2>
+         <p>Randonnee a cheval </p>
+         <h2>Excursion 2</h2>
+         <p>Randonnee a pied .</p>
+         <h2>Excursion 3</h2>
+         <p>Randonnee en VTT .</p>
+         </div>
+        
+         <div class="aside">
+         <h2>OU SOMMES NOUS</h2>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12! 28" width=100% height="500"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
+         </div>
+         </div>
+        </div>
+        <div class= "footer">
+        <P>Mon site est responsive design.</p>
+        </div>
+        </body>
+        </html>

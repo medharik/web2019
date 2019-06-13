@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inscription</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription à WebExcursions.com</h1>
+   <form action="recup.php" method="post" enctype="multipart/form-data" onsubmit="return verifierEmail() ">
+        <pre>
+                Nom:   <input type="text" name="nom" id="nom"><br>
+                Email: <input type="text" name="email" id="email"><br>
+                Photo: <input type="file" name="photo" id="photo"><br>
+                <input type="submit" value="soumettre">  <input type="reset" value="Effacer">
+            </pre>
+   </form>
+
+   <script>
+
+        function verifierEmail(){
+            var email=  document.getElementById('email');
+            var modele=/\S+@\S+\.\S+/
+
+            if(!modele.test(email.value)){
+                alert('Email non valide');
+            }
+            return modele.test(email.value);
+        }
+
+   </script>
+</body>
+</html>

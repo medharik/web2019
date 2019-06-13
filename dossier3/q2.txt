@@ -1,0 +1,1 @@
+donne une réponse instantanée  et permet  d'éviter un aller-retour   vers le serveur 

@@ -1,0 +1,9 @@
+MOA : (Maîtrise d’OuvrAge) est le client de la MOE.
+ Elle décide du lancement d’un projet et confie la réalisation à la MOE. Elle est responsable du résultat du projet,
+  assume l’usage du produit et finance sa réalisation.
+
+MOE : (Maîtrise d’OEuvre) développe les logiciels correspondant aux besoins des utilisateurs.
+
+AMOA : L’Assistance à Maîtrise d’OuvrAge  à pour rôle d’assister la MOA 
+
+AMOE :  à pour rôle d’assister la MOE .
